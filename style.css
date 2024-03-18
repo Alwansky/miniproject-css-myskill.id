@@ -1,0 +1,162 @@
+header {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    padding: 20px;
+  }
+
+  .headerContainer {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .contentHolder {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .imgProfile {
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px 2px rgba(84, 43, 111, 0.485);
+    transition: all;
+    transition-duration: 1s;
+  }
+  .imgProfile:hover {
+    transform: scale(1.1);
+  }
+  .holderImgProfile {
+    flex: 1;
+    text-align: center;
+  }
+  .holderDetailProfile {
+    flex: 2;
+  }
+  .nameProfile {
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+  }
+  .titleProfile {
+    color: white;
+    font-size: 36px;
+  }
+  .button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px 0 0;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 1s;
+  }
+  .button.download {
+    background-color: #e6e9ed;
+    color: rgb(43, 43, 43);
+    cursor: pointer;
+  }
+  .button.hire {
+    background-color: #37bc9b;
+    color: white;
+    cursor: pointer;
+  }
+  .button:hover {
+    transform: scale(1.1);
+  }
+  .barContainer {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(235, 233, 233);
+    position: relative;
+  }
+  .barFilling {
+    position: absolute;
+
+    height: 20px;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .html {
+    background-color: rgb(254, 173, 117);
+    width: 80%;
+  }
+  .css {
+    background-color: rgb(0, 110, 255);
+    width: 79%;
+  }
+  .bootstrap {
+    background-color: rgb(86, 0, 245);
+    width: 78%;
+  }
+  .javascript {
+    background-color: rgb(223, 223, 5);
+    width: 65%;
+  }
+  .mysql {
+    background-color: rgb(13, 79, 107);
+    width: 70%;
+  }
+  .php {
+    background-color: rgb(9, 121, 169);
+    width: 65%;
+  }
+
+
+
+  .subContent {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-align: justify;
+  }
+  h3 {
+    font-weight: 600;
+  }
+  .skillBar {
+    display: block;
+    margin: 10px 0;
+  }
+  ul.workEx li {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  ul.workEx li:first-child {
+    padding-top: 0;
+  }
+  ul.workEx li span {
+    font-size: 18px;
+  }
+  p strong {
+    color: #01733b;
+  }
+  .subWorkEx {
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+  }
+ 
+
+  footer {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+ }
